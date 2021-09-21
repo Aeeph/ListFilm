@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Check">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/titleCheck"/>
+
+    <TextView
+        android:id="@+id/textViewIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/introCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kegBaca" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kegNulis" />
+
+    <CheckBox
+        android:id="@+id/checkBoxHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kegHitung" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kegNari" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDongeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kegDongeng" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSholat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kegSholat" />
+
+    <Button
+        android:id="@+id/btnPilihan"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnPilihan" />
+
+
+
+
+</LinearLayout>

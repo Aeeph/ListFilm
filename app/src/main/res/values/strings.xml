@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Uika Bogor</string>
+    <string name="titleDashboard">DASHBOARD</string>
+    <string name="nameApp">Child Time</string>
+    <string name="versi">Versi 1.1</string>
+    <string name="text">Your Happy, Me Happy</string>
+    <string name="email">hh191099@gmail.com</string>
+    <string name="web">www.hanifhidayat.com</string>
+
+    <string name="btnDashboard">DASHBOARD</string>
+    <string name="btnProfil">PROFILE</string>
+    <string name="btnCheck">CHECKBOX</string>
+    <string name="btnRadio">RADIO BUTTON</string>
+
+    <string name="titleProfil">Halaman Profile</string>
+
+    <string name="titleCheck">LIST PILIHAN</string>
+    <string name="introCheck">Silahkan Pilih Kegiatan Bersama Anak-anak</string>
+    <string name="kegBaca">Belajar Membaca</string>
+    <string name="kegNulis">Belajar Menulis</string>
+    <string name="kegHitung">Belajar Menghitung</string>
+    <string name="kegNari">Belajar Menari</string>
+    <string name="kegDongeng">Mendengarkan Dongeng</string>
+    <string name="kegSholat">Sholat Bersama</string>
+    <string name="btnPilihan">Tampilkan Pilihan</string>
+
+    <string name="titleRadio">LIST PILIHAN</string>
+    <string name="introR">Silahkan pilih mau punya sifat apa</string>
+    <string name="rdBaik">Anak Baik</string>
+    <string name="rdNakal">Anak Nakal</string>
+    <string name="rdJail">Anak Jail</string>
+    <string name="rdPintar">Anak Pintar</string>
+    <string name="rdJahat">Anak Jahat</string>
+
+    <string name="titleLogin">Login Page</string>
+    <string name="name">Username</string>
+    <string name="inputName">Masukan Username</string>
+    <string name="pss">Password</string>
+    <string name="inputPss">Masukan Password</string>
+    <string name="btnLogin">Login</string>
+</resources>
