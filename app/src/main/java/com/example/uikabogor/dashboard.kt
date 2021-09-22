@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_dashboard.*
 
 class dashboard : AppCompatActivity() {
     private var btnProfil: Button? = null
@@ -20,7 +21,7 @@ class dashboard : AppCompatActivity() {
         btnProfil = findViewById(R.id.btnprofil)
         btnCheck = findViewById(R.id.btncheck)
         btnRadio = findViewById(R.id.btnradio)
-        btnPilihan = findViewById(R.id.listPilihan)
+        btnPilihan = findViewById(R.id.btnMovie)
         //memberikan action pada objek button
         btnProfil?.setOnClickListener(View.OnClickListener { //aksi button nya
             Toast.makeText(applicationContext, "Anda Mengakses Halaman Profile", Toast.LENGTH_SHORT)
@@ -40,11 +41,11 @@ class dashboard : AppCompatActivity() {
             val radio = Intent(this@dashboard, Radio::class.java)
             startActivity(radio)
         })
-        btnPilihan?.setOnClickListener(View.OnClickListener { //aksi ke halaman checkbox
-            Toast.makeText(applicationContext, "Anda Mengakses List Pilihan", Toast.LENGTH_SHORT)
+        btnMovie?.setOnClickListener(View.OnClickListener { //aksi ke halaman checkbox
+            Toast.makeText(applicationContext, "Anda Mengakses Halaman Movie", Toast.LENGTH_SHORT)
                 .show()
-            val pilihan = Intent(this@dashboard, RecyclerAdapter::class.java)
-            startActivity(pilihan)
+            val movie = Intent(this@dashboard, Movie::class.java)
+            startActivity(movie)
         })
     }
 }

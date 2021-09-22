@@ -19,7 +19,7 @@ class Login : AppCompatActivity() {
         Btnlogin!!.setOnClickListener {
             val name = username.text.toString()
             val pass = password.text.toString()
-            if (name == "admin" && pass == "admin") {
+            if (name == "Admin" && pass == "Admin") {
                 Toast.makeText(applicationContext, "Anda Berhasil Login", Toast.LENGTH_SHORT).show()
                 val profil = Intent(this@Login, dashboard::class.java)
                 startActivity(profil)
