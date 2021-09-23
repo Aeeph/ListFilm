@@ -9,11 +9,11 @@ import com.example.uikabogor.services.MovieApiInterface
 import com.example.uikabogor.services.MovieApiService
 import kotlinx.android.synthetic.main.activity_movie.*
 
-class Movie : AppCompatActivity() {
+class DetailMovie : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_movie)
+        setContentView(R.layout.activity_detail)
 
         rv_movies_list.layoutManager = LinearLayoutManager(this)
         rv_movies_list.setHasFixedSize(true)
